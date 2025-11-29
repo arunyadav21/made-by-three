@@ -34,7 +34,6 @@ export default function AboutMe() {
   // Removed unused formData state to fix compile error.
   // Removed unused currentText state and rotatingTexts logic to fix compile error.
 
-
   // Removed unused handleSubmit function to fix the error.
 
   const services = {
@@ -152,7 +151,7 @@ export default function AboutMe() {
                 <div className="absolute inset-0 bg-black/20"></div>
                 <div className="h-full flex items-center justify-center">
                   <div className="text-white text-center relative z-10">
-                    <div className="text-3xl font-bold mb-2">MadeByThree</div>
+                    <div className="text-3xl font-bold mb-2">avainfotek</div>
                     <div className="text-sm opacity-90">Arun, Atul & Vipin</div>
                   </div>
                 </div>
@@ -315,7 +314,7 @@ export default function AboutMe() {
                 <h2 className="text-4xl font-bold text-gray-900">
                   About{" "}
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
-                    MadeByThree
+                    avainfotek
                   </span>
                 </h2>
                 <p className="mt-4 text-gray-600 text-lg leading-relaxed">
@@ -430,8 +429,6 @@ export default function AboutMe() {
                 </div>
               </div>
             </div>
-
-            
           </div>
         </div>
       </section>
@@ -465,16 +462,11 @@ export default function AboutMe() {
   );
 }
 
-
-
-
-
-
-
-
-
-{/* Digital Marketing Card - Updated to match Profile Card */}
-{/*  <div className="relative bg-white rounded-2xl shadow-2xl p-6 transform -rotate-1">
+{
+  /* Digital Marketing Card - Updated to match Profile Card */
+}
+{
+  /*  <div className="relative bg-white rounded-2xl shadow-2xl p-6 transform -rotate-1">
               <div className="absolute -top-4 -right-4 bg-amber-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow-md">
                 Growth
               </div>
@@ -553,4 +545,5 @@ export default function AboutMe() {
               <div className="absolute -top-6 -right-6 w-28 h-28 bg-pink-100 rounded-2xl transform rotate-6 z-[-1]"></div>
             </div> 
            
-*/}
+*/
+}

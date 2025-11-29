@@ -39,7 +39,7 @@ export default function Navbar() {
               <div className="absolute -inset-2 bg-gradient-to-r from-blue-400 to-purple-500 rounded-full opacity-0 group-hover:opacity-20 blur transition-opacity duration-300"></div>
               <div className="relative flex">
                 <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                  MadeByThree
+                  avainfotek
                 </span>
               </div>
             </div>
@@ -63,9 +63,11 @@ export default function Navbar() {
                 <span className="absolute -inset-1 rounded-lg opacity-0 group-hover:opacity-10 bg-blue-200 transition-opacity duration-300"></span>
               </Link>
             ))}
-            <button className="ml-4 px-6 py-2 bg-gradient-to-r from-blue-500 to-purple-500 text-white font-medium rounded-full hover:from-blue-600 hover:to-purple-600 transition-all duration-300 transform hover:-translate-y-0.5 shadow-md hover:shadow-lg">
-              Get Quote
-            </button>
+            <Link href="/contact">
+              <button className="ml-4 px-6 py-2 bg-gradient-to-r from-blue-500 to-purple-500 text-white font-medium rounded-full hover:from-blue-600 hover:to-purple-600 transition-all duration-300 transform hover:-translate-y-0.5 shadow-md hover:shadow-lg">
+                Get Quote
+              </button>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
