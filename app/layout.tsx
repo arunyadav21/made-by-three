@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "MadeByThree",
+  title: "avainfotek.com - Made By Three",
   description: "Built by three, made for you",
 };
 
