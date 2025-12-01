@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Code, Smartphone, TrendingUp, Check, ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 export default function Services() {
   const [activeTab, setActiveTab] = useState("web");
@@ -243,10 +244,12 @@ export default function Services() {
             Let&apos;s combine our three areas of expertise to create something
             amazing for your business.
           </p>
-          <button className="group inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all duration-300">
-            Get Free Consultation
-            <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-          </button>
+          <Link href={"/contact"}>
+            <button className="group inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all duration-300">
+              Get Free Consultation
+              <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+            </button>
+          </Link>
         </div>
       </div>
     </section>

@@ -116,7 +116,7 @@ export default function Contact() {
                 <div>
                   <p className="text-gray-600 text-sm">Email us</p>
                   <p className="text-gray-900 font-medium">
-                    hello@madebythree.com
+                    hello@avainfotek.com
                   </p>
                 </div>
               </div>

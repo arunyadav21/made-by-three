@@ -18,7 +18,7 @@ const Footer = () => {
           {/* Company info */}
           <div className="lg:col-span-1">
             <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              MadeByThree
+              avainfotek
             </h3>
             <p className="text-gray-700 mb-4">
               Creating innovative solutions that drive your business forward
@@ -256,7 +256,7 @@ const Footer = () => {
                     d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                   />
                 </svg>
-                <span>info@madebythree.com</span>
+                <span>info@avainfotek.com</span>
               </li>
             </ul>
           </div>
@@ -297,7 +297,7 @@ const Footer = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-700 text-sm">
-              © {currentYear} MadeByThree. All rights reserved.
+              © {currentYear} avainfotek. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a

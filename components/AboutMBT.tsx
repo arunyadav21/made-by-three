@@ -16,6 +16,7 @@ import {
   Star,
 } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 import { JSX } from "react";
 
 // Define TypeScript interfaces
@@ -197,7 +198,7 @@ const AboutUs = () => {
         </div>
 
         <h2 className="text-5xl md:text-6xl font-extrabold tracking-tight mb-4">
-          We Are <span className="text-blue-600">MadeByThree</span>
+          We Are <span className="text-blue-600">avainfotek</span>
         </h2>
 
         <p className="text-xl md:text-2xl text-gray-600 font-medium mb-6">
@@ -277,14 +278,14 @@ const AboutUs = () => {
         </div>
         <div className="flex justify-center">
           <div className="relative w-96 h-96 rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-white transform hover:scale-105 transition-transform duration-300">
-            <Image
+            {/* <Image
               src="/logo.png"
               alt="MadeByThree Team"
               className="object-cover w-full h-full"
               width={384}
               height={384}
               priority
-            />
+            /> */}
             <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
             <div className="absolute bottom-6 left-6 bg-white/90 px-5 py-3 rounded-xl text-lg text-gray-900 font-semibold shadow-lg">
               United by Passion
@@ -460,8 +461,8 @@ const AboutUs = () => {
             Let&apos;s join forces and turn your vision into a digital
             masterpiece. Reach out and let&apos;s build together.
           </p>
-          <a
-            href="#contact"
+          <Link
+            href={"/contact"}
             className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all duration-300 text-lg"
           >
             Get Started
@@ -476,7 +477,7 @@ const AboutUs = () => {
                 clipRule="evenodd"
               ></path>
             </svg>
-          </a>
+          </Link>
         </div>
       </div>
 
