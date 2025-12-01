@@ -116,7 +116,7 @@ export default function Contact() {
                 <div>
                   <p className="text-gray-600 text-sm">Email us</p>
                   <p className="text-gray-900 font-medium">
-                    hello@avainfotek.com
+                    avainfotek@gmail.com
                   </p>
                 </div>
               </div>
@@ -127,7 +127,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-gray-600 text-sm">Call us</p>
-                  <p className="text-gray-900 font-medium">+91 6393168278</p>
+                  <p className="text-gray-900 font-medium">+91 9129652795</p>
                 </div>
               </div>
 

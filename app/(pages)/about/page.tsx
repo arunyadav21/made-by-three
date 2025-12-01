@@ -7,7 +7,6 @@ import {
   Star,
   Award,
   Users,
-  Mail,
   Clipboard,
   Github,
   Linkedin,
@@ -19,12 +18,6 @@ import {
   Globe,
   Smartphone,
   TrendingUp,
-  BarChart3,
-  Target,
-  Search,
-  MailOpen,
-  Zap,
-  HeartHandshake,
 } from "lucide-react";
 
 type ServiceKey = "web" | "app" | "marketing";
@@ -96,39 +89,8 @@ export default function AboutMe() {
     },
   ];
 
-  // Marketing services
-  const marketingServices = [
-    {
-      icon: <Search size={18} />,
-      name: "SEO Optimization",
-      desc: "Rank higher on search engines",
-    },
-    {
-      icon: <BarChart3 size={18} />,
-      name: "Social Media Marketing",
-      desc: "Engage your audience",
-    },
-    {
-      icon: <Target size={18} />,
-      name: "PPC Campaigns",
-      desc: "Targeted advertising",
-    },
-    {
-      icon: <MailOpen size={18} />,
-      name: "Email Marketing",
-      desc: "Convert leads to customers",
-    },
-    {
-      icon: <Zap size={18} />,
-      name: "Content Strategy",
-      desc: "Valuable content that converts",
-    },
-    {
-      icon: <TrendingUp size={18} />,
-      name: "Analytics & Reporting",
-      desc: "Data-driven decisions",
-    },
-  ];
+  // Marketing services (removed unused variable)
+  // If you need these later, reintroduce the array and use it in the JSX cards.
 
   return (
     <main className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-blue-50 via-white to-indigo-50 py-16 px-4">
@@ -209,21 +171,39 @@ export default function AboutMe() {
               </div>
 
               <div className="flex gap-3 justify-center">
-                <a
-                  href="mailto:hello@aavdigital.com"
-                  className="flex-1 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2.5 rounded-lg text-sm font-semibold transition-all duration-300 shadow-md hover:shadow-lg flex items-center justify-center gap-2"
-                >
-                  <Mail size={16} />
-                  Email
-                </a>
-                <Link
-                  href="#contact"
-                  className="flex-1 bg-white text-gray-900 border border-gray-300 hover:bg-gray-50 px-4 py-2.5 rounded-lg text-sm font-semibold transition-all duration-300 shadow-md hover:shadow-lg flex items-center justify-center gap-2"
-                >
-                  <Clipboard size={16} />
-                  Hire Us
-                </Link>
-              </div>
+  {/* <a
+    href="mailto:avainfotek@gmail.com"
+    className="flex-1 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2.5 rounded-lg text-sm font-semibold transition-all shadow-md flex items-center justify-center gap-2"
+  >
+    <Mail size={16} />
+    Email
+  </a> */}
+
+  <a
+    href="https://wa.me/919129652795"
+    target="_blank"
+    className="flex-1 bg-green-600 hover:bg-green-700 text-white px-4 py-2.5 rounded-lg text-sm font-semibold transition-all shadow-md flex items-center justify-center gap-2"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="currentColor"
+      viewBox="0 0 24 24"
+      className="w-4 h-4"
+    >
+      <path d="M20.52 3.48A11.89 11.89 0 0 0 12 0C5.37 0 0 5.4 0 12a11.87 11.87 0 0 0 1.65 6L0 24l6.3-1.64A11.87 11.87 0 0 0 12 24c6.63 0 12-5.37 12-12a11.89 11.89 0 0 0-3.48-8.52ZM12 22a9.93 9.93 0 0 1-5.1-1.43l-.36-.2-3.74.97 1-3.65-.23-.38A9.9 9.9 0 1 1 12 22Zm5.18-7.52c-.28-.14-1.65-.81-1.9-.9s-.44-.14-.62.14-.71.9-.88 1.08-.32.21-.6.07A7.94 7.94 0 0 1 9.63 13c-.46-.8-.55-1.18-.41-1.37s.21-.32.32-.47a1.14 1.14 0 0 0 .14-.47.51.51 0 0 0-.07-.28c-.14-.14-.62-1.49-.85-2s-.45-.46-.62-.47H8a1.31 1.31 0 0 0-.92.44A3.82 3.82 0 0 0 6 11.06a6.64 6.64 0 0 0 1.43 3.5c1.74 2.32 4.3 3.22 6 3.57a10.83 10.83 0 0 0 1.6.17 3.44 3.44 0 0 0 2.27-.92 2.78 2.78 0 0 0 .64-1.76c0-.28-.05-.44-.1-.46Z" />
+    </svg>
+    WhatsApp
+  </a>
+
+  <Link
+    href="/contact"
+    className="flex-1 bg-white text-gray-900 border border-gray-300 hover:bg-gray-50 px-4 py-2.5 rounded-lg text-sm font-semibold transition-all shadow-md flex items-center justify-center gap-2"
+  >
+    <Clipboard size={16} />
+    Hire Us
+  </Link>
+</div>
+
 
               {/* Decorative elements */}
               <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-blue-100 rounded-2xl transform -rotate-12 z-[-1]"></div>
