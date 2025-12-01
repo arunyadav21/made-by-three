@@ -50,7 +50,7 @@ const AboutUs = () => {
       id: 1,
       name: "Arun Kumar",
       role: "Digital Marketing Specialist",
-      experience: "1 year experience",
+      experience: "2 year experience",
       skills: [
         "SEO",
         "Social Media Marketing",
@@ -72,7 +72,7 @@ const AboutUs = () => {
       id: 2,
       name: "Vipin Patel",
       role: "Web Developer",
-      experience: "1 year experience",
+      experience: "2 year experience",
       skills: ["React", "Next.js", "Node.js", "MongoDB", "Tailwind CSS"],
       description:
         "Vipin creates stunning, responsive web applications with clean code and modern frameworks. He focuses on delivering fast, accessible, and user-friendly experiences.",
