@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   title: "avainfotek.com - Made By Three",
   description: "Built by three, made for you",
   verification: {
-    google: "google6ac0571e55e3128c", // <-- YAHAN AAPKA CODE
+    google: "yVLfDgVy_7d_92A", // <-- YAHAN AAPKA CODE
   },
 };
 // -------------------------------------------------------
