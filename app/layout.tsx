@@ -14,10 +14,15 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+// -------------------- ADD THIS PART --------------------
 export const metadata: Metadata = {
   title: "avainfotek.com - Made By Three",
   description: "Built by three, made for you",
+  verification: {
+    google: "google6ac0571e55e3128c", // <-- YAHAN AAPKA CODE
+  },
 };
+// -------------------------------------------------------
 
 export default function RootLayout({
   children,
