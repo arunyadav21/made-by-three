@@ -387,7 +387,7 @@ export default function Hero() {
               </div>
               <div className="ml-6">
                 <p className="font-bold text-slate-900 text-lg leading-none">
-                  500+ Projects
+                  8+ Projects
                 </p>
                 <p className="text-sm text-slate-500 font-medium">
                   Shipped Worldwide
