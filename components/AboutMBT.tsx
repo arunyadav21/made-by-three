@@ -280,7 +280,7 @@ const AboutUs = () => {
           <div className="relative w-96 h-96 rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-white transform hover:scale-105 transition-transform duration-300">
              <Image
               src="/logo.png"
-              alt="MadeByThree Team"
+              alt="MadeByThree-Team"
               className="object-cover w-full h-full"
               width={384}
               height={384}
