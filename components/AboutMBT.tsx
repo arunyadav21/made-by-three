@@ -278,14 +278,14 @@ const AboutUs = () => {
         </div>
         <div className="flex justify-center">
           <div className="relative w-96 h-96 rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-white transform hover:scale-105 transition-transform duration-300">
-            {/* <Image
+             <Image
               src="/logo.png"
               alt="MadeByThree Team"
               className="object-cover w-full h-full"
               width={384}
               height={384}
               priority
-            /> */}
+            /> 
             <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
             <div className="absolute bottom-6 left-6 bg-white/90 px-5 py-3 rounded-xl text-lg text-gray-900 font-semibold shadow-lg">
               United by Passion
