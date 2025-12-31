@@ -65,6 +65,7 @@ export default function Contact() {
         });
       } else {
         const data = await res.json();
+        console.log(data.error,"testing jnjn")
         setStatus({ type: "error", msg: data.error || "Something went wrong" });
       }
     } catch (error) {
