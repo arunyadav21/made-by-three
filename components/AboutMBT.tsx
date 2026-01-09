@@ -82,8 +82,8 @@ const AboutUs = () => {
         github: "#",
         linkedin: "#",
         twitter: "#",
-        portfolio: "#",
-        email: "mailto:vipin@madebythree.com",
+        portfolio: "my",
+        email: "mailto:vipinatraura@gmail.com",
       },
     },
     {
